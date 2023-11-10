@@ -8,7 +8,6 @@ function App() {
 	const [allHogs , setHogs] = useState(hogs)
 
 
-
 	return (
 		<div className="App">
 			<Nav />
@@ -22,7 +21,7 @@ export default App;
 
 /* 
 App 
-	Nav - display header details and add in the
+	Nav - display header details
 	NewHogForm - BONUS would allow to add more Hogs
 	HogTable - Where Hogs will land and render tiles
 		SortAndFilter - allows options to filter and sort Hogs
